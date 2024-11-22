@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ref_key",
+ "creation": "2024-11-22 10:31:47.792558",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_key",
+  "code",
+  "description",
+  "first_name",
+  "last_name",
+  "middle_name",
+  "inn",
+  "snils",
+  "date_of_birth",
+  "gender"
+ ],
+ "fields": [
+  {
+   "fieldname": "ref_key",
+   "fieldtype": "Data",
+   "label": "ref_key",
+   "unique": 1
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "code"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "first_name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "last_name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "middle_name"
+  },
+  {
+   "fieldname": "inn",
+   "fieldtype": "Data",
+   "label": "inn"
+  },
+  {
+   "fieldname": "snils",
+   "fieldtype": "Data",
+   "label": "snils"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "date_of_birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "gender",
+   "options": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439\n\u0416\u0435\u043d\u0441\u043a\u0438\u0439"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-22 10:42:24.812062",
+ "modified_by": "Administrator",
+ "module": "Test 1C",
+ "name": "PhysicalPerson",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
